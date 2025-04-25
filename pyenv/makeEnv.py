@@ -11,7 +11,7 @@ from pathlib import Path
 
 # Define virtual environment directory and list of modules
 venv_dir = Path(__file__).parent / "venv"
-modules = ["bs4", "requests", "selenium", "webdriver-manager"]
+modules = ["bs4", "requests", "selenium", "webdriver-manager", "psycopg2"]
 
 # Create virtual environment
 print(f"Creating virtual environment in ./{venv_dir}")
